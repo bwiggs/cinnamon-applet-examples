@@ -16,34 +16,37 @@ Your applet class can inherit from one of a few different Applet types:
 class MyApplet extends Applet.TextApplet {
     constructor(metadata, orientation, panel_height, instance_id) {
         super(orientation, panel_height, instance_id);
-        this.set_applet_label(UUID);
+        this.set_applet_label("My Applet");
         this.set_applet_tooltip("hello world!");
     }
 }
 ```
+### IconApplet
 
 ```js
 class MyApplet extends Applet.IconApplet {
     constructor(metadata, orientation, panel_height, instance_id) {
         super(orientation, panel_height, instance_id);
-        
-        // full color icon
-        this.set_applet_icon("weather-clear");
-        
-        // symbolic (black/white) icon
-        this.set_applet_icon_symbolic_name("weather-clear")
+
         this.set_applet_tooltip("hello world!");
+
+        this.set_applet_icon("weather-clear"); // full color
+        // this.set_applet_icon_symbolic_name("weather-clear") // symbolic b/w
     }
 }
 ```
+### TextIconApplet
 
 ```js
 class MyApplet extends Applet.TextIconApplet {
     constructor(metadata, orientation, panel_height, instance_id) {
         super(orientation, panel_height, instance_id);
-        this.set_applet_label(UUID);
-        this.set_applet_icon_name("weather-clear");
+        
+        this.set_applet_label("My Applet");
         this.set_applet_tooltip("hello world!");
+
+        // this.set_applet_icon_name("weather-clear"); // full color
+        this.set_applet_icon_symbolic_name("weather-clear"); // symbolic b/w
     }
 }
 ```
