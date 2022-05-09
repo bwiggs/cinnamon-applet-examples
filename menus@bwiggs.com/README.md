@@ -1,3 +1,3 @@
-# Simple Applet
+# Menu applet
 
-The "hello world" cinnamon applet.
+Simple example for creating menus and different menu items types.
