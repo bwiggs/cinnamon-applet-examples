@@ -1,5 +1,8 @@
 Small, easy to understand sample applets to help you get going quickly.
 
+1. [Simple](/simple%40bwiggs.com/)
+1. [Menus](/menus%40bwiggs.com/)
+
 # Other Resources
 
 - http://billauer.co.il/blog/2018/12/writing-cinnamon-applet/
