@@ -2,6 +2,7 @@ Small, easy to understand sample applets to help you get going quickly.
 
 1. [Simple](/simple%40bwiggs.com/)
 1. [Menus](/menus%40bwiggs.com/)
+1. [Mainloop](/mainloop%40bwiggs.com/)
 
 # Other Resources
 
